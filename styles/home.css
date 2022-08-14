@@ -1,0 +1,193 @@
+body {
+    background-image: url("../assets/img/home-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    padding-bottom: 100px;
+}
+
+
+/****** Welcome Section Style ******/
+
+.welcome-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    margin-inline: 200px;
+}
+
+.animated-img img {
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 7px 3px black;
+}
+
+.welcome-section h1 {
+    font-size: 70px;
+    text-shadow: 2px 6px 5px black;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.welcome-section p {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px;
+    margin-top: 50px;
+    color: rgb(190, 221, 51);
+    text-shadow: 2px 3px 3px black;
+}
+
+/****** And Off Welcome Section Style ******/
+
+
+/****** Choice Section Style ******/
+
+.choice-section {
+    border-block: 8px ridge var(--white);
+    border-radius: 250px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    color: var(--white);
+    width: 1100px;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.choice-info {
+    padding-inline: 50px;
+}
+
+.choice-section h2 {
+    font-size: 23px;
+    font-weight: 200;
+    text-shadow: 2px 2px 5px black;
+    border-bottom: 5px ridge white;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-inline: 70px;
+}
+
+.choice-section p {
+    font-size: 20px;
+    font-weight: 200;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hint .left {
+    height: 150px;
+    transform: rotate(50deg);
+    padding-right: 15px;
+}
+
+.hint .right {
+    height: 150px;
+    transform: rotate(-50deg);
+    padding-left: 15px;
+}
+
+.choice-buttons button {
+    border: 0;
+    cursor: pointer;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 300;
+}
+
+
+.choice-buttons .regions-button {
+    background: var(--white);
+    color: black;
+    font-size: 20px;
+    margin-right: 100px;
+    padding-block: 10px;
+    border-radius: 10px;
+    padding-inline: 43px;
+}
+
+.choice-buttons .wines-button {
+    background: var(--white);
+    color: black;
+    font-size: 20px;
+    margin-left: 100px;
+    padding-block: 10px;
+    border-radius: 10px;
+    padding-inline: 20px;
+}
+
+.choice-buttons button:hover {
+    background: linear-gradient(45deg, rgb(32, 32, 32), rgb(59, 59, 59));
+    color: var(--white);
+    box-shadow: 2px 2px 10px 2px white;
+}
+
+/****** And Off Choice Section Style ******/
+
+
+/****** SlideShow Container Style ******/
+
+
+.slideshow-container {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 5px 2px black;
+    border: 10px solid rgba(255, 255, 255, 0.699);
+}
+
+.slideshow-container img {
+    width: 100%;
+    border-radius: 5px;
+    height: 700px;
+}
+
+.mySlides {
+    display: none;
+    height: 700px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 13px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(253, 253, 253, 0.562);
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+  /****** And Off SlideShow Container Style ******/
+
+

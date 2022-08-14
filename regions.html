@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/regions.css">
+    <link rel="stylesheet" href="styles/responsive-styles/regions-responsive.css">
+    <link rel="icon" href="assets/img/georgian-flag.png">
+    <title>Georgia</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="assets/img/Animated_flag_of_Georgia.gif" alt="georgian flag">
+        </a>
+        <nav id="nav">
+            <a href="index.html">მთავარი</a>
+            <a href="regions.html">კუთხეები</a>
+            <a href="wines.html">ღვინის ჯიშები</a>
+        </nav>
+        <div class="mobile-menu">
+            <span>მენიუ</span>
+            <img src="assets/icon/menu-bar.svg" alt="menu bar">
+        </div>
+    </header>
+    <div class="main-container">
+        <div class="slideshow-container racha">
+            <div class="region-name">
+                <h1>რაჭა-ლეჩხუმ-ქვემო სვანეთი</h1>
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/img/Racha-Lechkhumi_Kvemo Svaneti.svg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/racha1.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/racha2.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/racha3.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/lechkhumi1.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/lechkhumi2.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/lechkhumi3.jpg">
+            </div>
+
+            <a class="prev" onclick="setSlidesRacha(-1)">&#10094;</a>
+            <a class="next" onclick="setSlidesRacha(1)">&#10095;</a>
+
+            <div class="regions-description">
+                <div class="more-info">
+                    <p>რაჭა-ლეჩხუმ-ქვემო სვანეთის რეგიონი დასავლეთ საქართველოს ჩრდილოეთ ნაწილში მდებარეობს. რეგიონს
+                        დასავლეთით ესაზღვრება სამეგრელო-ზემო სვანეთი, სამხრეთით - იმერეთი, აღმოსავლეთით - ცხინვალის
+                        რეგიონი,
+                        ხოლო ჩრდილოეთით - რუსეთის ფედერაცია. რეგიონის ფართობია 4600 კვ.კმ-ია, მოსახლეობის რაოდენობა კი
+                        დაახლოებით 32 000 ათასს შეადგენს. რაჭა–ლეჩხუმ ქვემო სვანეთის რეგიონი აერთიანებს 5
+                        ადმინისტრაციულ–ტერიტორიულ ერთეულს:
+                        ქალაქ ამბროლაურის, ამბროლაურის, ონის, ცაგერისა და ლენტეხის მუნიციპალიტეტები.</p>
+
+                    <a href="#"><button>დეტალურად</button></a>
+                </div>
+            </div>
+            <div class="food-info">
+                <h2>რაჭა-ლეჩხუმ-ქვემო სვანეთის პოპულარული კერძები</h2>
+                <div class="food-list">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/lori.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>რაჭული ლორი</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/lobiani.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>ლობიანი</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/mchadi.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>მჭადი</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/lobio.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>ლობიო</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow-container imereti">
+            <div class="region-name">
+                <h1>იმერეთი</h1>
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/img/imereti.svg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/imereti1.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/imereti2.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/imereti3.jfif">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/imereti4.jpg">
+            </div>
+
+            <a class="prev" onclick="setSlidesImereti(-1)">&#10094;</a>
+            <a class="next" onclick="setSlidesImereti(1)">&#10095;</a>
+
+            <div class="regions-description">
+                <div class="more-info">
+                    <p>იმერეთი — დასავლეთ საქართველოს ერთ-ერთი ისტორიულ-გეოგრაფიულ მხარე, ამჟამად იმერეთის მხარის
+                        ნაწილი.
+                        ვრცელი მნიშვნელობით იგი დასავლეთ საქართველოს ისტორიული სახელწოდებაა, ისევე როგორც ძველი კოლხეთი,
+                        ეგრისი, აფხაზეთი. საკუთრივ იმერეთი შემოსაზღვრულია აღმოსავლეთით ლიხის ქედით, დასავლეთით
+                        ცხენისწყლით,
+                        ჩრდილოეთით
+                        კავკასიონის ქედით და სამხრეთით ფერსათის, ანუ მესხეთის მთებით. სახელწოდება დაკავშირებულია ამ
+                        მხარის
+                        მდებარეობასთან, იმერეთი, ანუ ლიხსიქითა მხარე. იმერეთი იყოფა ორ ნაწილად: ზემო და ქვემო იმერეთად.
+                        იმერეთის ტერიტორიაზე აღმოჩენილი არქეოლოგიური
+                        ძეგლები ადასტურებს, რომ ამ მხარეში ადამიანს ცხოვრება, ჯერ კიდევ, ქვედა პალეოლითის ხანაში
+                        დაუწყია.
+                        მათ შორისაა საკაჟიის და ჭახათის (მდ. წყალწითელას ნაპირზე), დევისხვრელის (მდ. ჩხერიმელას ნაპირზე)
+                        გამოქვაბულები, სათაფლიის მიდამოები და სხვა. საქალაქო ცხოვრების უძველესი პერიოდის არქეოლოგიური
+                        ძეგლები ნაპოვნია ქუთაისში, ვანში, ვარციხეში (როდოპოლისი), შორაპანში და სხვა. მხარის ხელსაყრელი
+                        გეოგრაფიული მდებარეობის გამო ამ ქალაქებს ოდითგანვე დიდი სტრატეგიული, ეკონომიკური და პოლიტიკური
+                        მნიშვნელობა ჰქონდა.</p>
+
+                    <a href="#"><button>დეტალურად</button></a>
+                </div>
+            </div>
+            <div class="food-info">
+                <div>
+                    <h2>იმერეთის პოპულარული კერძები</h2>
+                </div>
+
+                <div class="food-list">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/wiwila.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>შემწვარი წიწილა</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/imeruli-khachapuri.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>იმერული ხაჭაპური</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/imeruli-cheese.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>იმერული ყველი</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/pxali.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>ფხალი</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow-container samegrelo">
+            <div class="region-name">
+                <h1>სამეგრელო-ზემო სვანეთი</h1>
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/img/sam.png">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/samegrelo-zemosvaneti1.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/samegrelo-zemosvaneti2.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/samegrelo-zemosvaneti3.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/samegrelo-zemosvaneti4.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/samegrelo-zemosvaneti5.jpg">
+            </div>
+
+            <a class="prev" onclick="setSlidesSamegrelo(-1)">&#10094;</a>
+            <a class="next" onclick="setSlidesSamegrelo(1)">&#10095;</a>
+
+            <div class="regions-description">
+                <div class="more-info">
+                    <p>სამეგრელო–ზემო სვანეთი მდებარეობს საქართველოს ცენტრალურ ჩრდილო–დასავლეთ ნაწილში. რეგიონის
+                        ტერიტორია
+                        საქართველოს ტერიტორიის 10,6 %-ია, რაც შეადგენს 7441 კვ.კმ-ს, ამ მონაცემით სამეგრელო-ზემო
+                        სვანეთის
+                        რეგიონს მეორე ადგილი უკავია საქართველოს რეგიონებს შორის, ხოლო ტყეებს უკავიათ 3,01 ათასი კვ.კმ.
+                        ანუ
+                        რეგიონის მთლიანი ფართობის 40,7 %. დასავლეთიდან სამეგრელო-ზემო სვანეთს შავი ზღვა ესაზღვრება,
+                        ჩრდილო-დასავლეთით — აფხაზეთი, რომელთანაც
+                        საზღვარი მდინარე ენგურზე და კოდორის ქედზე გადის, ჩრდილოეთით — რუსეთის ფედერაციის სუბიექტები:
+                        ყარაჩაი-ჩერქეზეთი და ყაბარდო-ბალყარეთი არიან გამოყოფილი კავკასიონის მთავარი წყალგამყოფი ქედით,
+                        ჩრდილო-აღმოსავლეთით და აღმოსავლეთით — რაჭა-ლეჩხუმის და ქვემო სვანეთის მხარე, რომელთანაც სვანეთის
+                        და
+                        ეგრისის ქედებზე და ასხის მასივზე გადის საზღვარი, სამხრეთ-აღმოსავლეთით — იმერეთი და სამხრეთით —
+                        გურია. ზემო სვანეთი საქართველოს ჰიფსომეტრიულ „ჭერად“ ითვლება. მისი ტერიტორიის 96 % ზღვის დონიდან
+                        1000
+                        მეტრზე, ხოლო 65,8 % 2000 მეტრზე მაღლა არის განლაგებული. ზომიერი კლიმატი, ბუნებრივი სილამაზე და
+                        დაცული ფაუნა ზამთრისა და ზაფხულის ტურიზმის განვითარების საშუალებას იძლევა.</p>
+
+                    <a href="#"><button>დეტალურად</button></a>
+                </div>
+            </div>
+            <div class="food-info">
+                <h2>სამეგრელო–ზემო სვანეთის პოპულარული კერძები</h2>
+                <div class="food-list">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/megruli khachapuri.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>მეგრული ხაჭაპური</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/kubdari.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>სვანური კუბდარი</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/elarji.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>ელარჯი</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/kharcho.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>მეგრული ხარჩო</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow-container kaxeti">
+            <div class="region-name">
+                <h1>კახეთი</h1>
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/img/kaxeti.png">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/kaxeti1.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/kaxeti2.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/kaxeti3.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/kaxeti4.jpg">
+            </div>
+
+            <a class="prev" onclick="setSlidesKaxeti(-1)">&#10094;</a>
+            <a class="next" onclick="setSlidesKaxeti(1)">&#10095;</a>
+
+            <div class="regions-description">
+                <div class="more-info">
+                    <p>კახეთი ისტორიულ-გეოგრაფიული რეგიონი აღმოსავლეთ საქართველოში. კახეთი ერთ-ერთი დიდი რეგიონია
+                        საქართველოს ფარგლებში. კახეთი ცნობილია კულტურულ ძეგლთა სიმრავლით. არაერთი ეკლესია-მონასტერი თუ
+                        ციხესიმაგრე იპყრობს
+                        ტურისტებისა და ექსკურსანტების ყურადღებას. კახეთის გამორჩეულად ცნობილი კულტურული ძეგლებია:
+                        ნინოწმინდა, ბოდბე, ხორნაბუჯი, უჯარმა, სიღნაღი, გურჯაანის ყველაწმინდა, ალავერდი, ახალი და ძველი
+                        შუამთა, იყალთო, გრემი, ნეკრესი. თითოეული ეკლესია-მონასტერი ძველი ტრადიციის მატარებელია, დღემდე
+                        მოქმედებს მათი სახელობითი დღესასწაულები. ეს კი საუკეთესო ფაქტორია მომლოცველთა ან უბრალოდ
+                        კულტურული
+                        ტურიზმით დაინტერესებულთათვის. მხარეს დიდი პოტენციალი აქვს ღვინის ტურიზმის განვითარებისთვის.
+                        კახეთის
+                        მეღვინეობის ისტორია ჩვ. წ. აღ-მდე III–II საუკუნეში იწყება და დღემდე მხარის ეკონომიკის
+                        უმნიშვნელოვანეს დარგს წარმოადგენს.</p>
+
+                    <a href="#"><button>დეტალურად</button></a>
+                </div>
+            </div>
+            <div class="food-info">
+                <h2>კახეთის პოპულარული კერძები</h2>
+                <div class="food-list">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/chaqafuli.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>ბატკნის ჩაქაფული</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/mwvadi.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>მწვადი</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/xashlama.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>ხაშლამა</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/shoti.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>კახური შოთის პური</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow-container achara">
+            <div class="region-name">
+                <h1>აჭარა</h1>
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/img/achara.png">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/achara1.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/achara2.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/achara3.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/achara4.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/achara5.jpg">
+            </div>
+
+            <a class="prev" onclick="setSlidesAchara(-1)">&#10094;</a>
+            <a class="next" onclick="setSlidesAchara(1)">&#10095;</a>
+
+            <div class="regions-description">
+                <div class="more-info">
+                    <p>კახეთი ისტორიულ-გეოგრაფიული რეგიონი აღმოსავლეთ საქართველოში. კახეთი ერთ-ერთი დიდი რეგიონია
+                        საქართველოს ფარგლებში. კახეთი ცნობილია კულტურულ ძეგლთა სიმრავლით. არაერთი ეკლესია-მონასტერი თუ
+                        ციხესიმაგრე იპყრობს
+                        ტურისტებისა და ექსკურსანტების ყურადღებას. კახეთის გამორჩეულად ცნობილი კულტურული ძეგლებია:
+                        ნინოწმინდა, ბოდბე, ხორნაბუჯი, უჯარმა, სიღნაღი, გურჯაანის ყველაწმინდა, ალავერდი, ახალი და ძველი
+                        შუამთა, იყალთო, გრემი, ნეკრესი. თითოეული ეკლესია-მონასტერი ძველი ტრადიციის მატარებელია, დღემდე
+                        მოქმედებს მათი სახელობითი დღესასწაულები. ეს კი საუკეთესო ფაქტორია მომლოცველთა ან უბრალოდ
+                        კულტურული
+                        ტურიზმით დაინტერესებულთათვის. მხარეს დიდი პოტენციალი აქვს ღვინის ტურიზმის განვითარებისთვის.
+                        კახეთის
+                        მეღვინეობის ისტორია ჩვ. წ. აღ-მდე III–II საუკუნეში იწყება და დღემდე მხარის ეკონომიკის
+                        უმნიშვნელოვანეს დარგს წარმოადგენს.</p>
+
+                    <a href="#"><button>დეტალურად</button></a>
+                </div>
+            </div>
+            <div class="food-info">
+                <h2>აჭარის პოპულარული კერძები</h2>
+                <div class="food-list">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/achma.png" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>აჩმა</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/acharuli-khachapuri.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>აჭარული ხაჭაპური</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/pakhlava.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>ფახლავა</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/sinori.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>სინორი</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow-container samcxe-javaxeti">
+            <div class="region-name">
+                <h1>სამცხე ჯავახეთი</h1>
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/img/Samtskhe-Javakheti.png">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/samcxe1.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/samcxe2.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/samcxe3.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/img/samcxe4.png">
+            </div>
+
+            <a class="prev" onclick="setSlidesSamcxeJavaxeti(-1)">&#10094;</a>
+            <a class="next" onclick="setSlidesSamcxeJavaxeti(1)">&#10095;</a>
+
+            <div class="regions-description">
+                <div class="more-info">
+                    <p>სამცხე-ჯავახეთი სამხრეთ საქართველოში მდებარე რეგიონია და მოიცავს სამცხის, ჯავახეთის და თორის
+                        ისტორიულ-გეოგრაფიული პროვინციების ტერიტორიებს. მისი ადმინისტრაციული ცენტრია ახალციხე. რეგიონს
+                        აქვს გამორჩეული გეოგრაფიული ადგილმდებარეობა, რაც ხელს უწყობდა საუკუნეების განმავლობაში მის
+                        ეკონომიკურ და კულტურულ ურთიერთობებს მოსაზღვრე სახელმწიფოებთან. სამცხე-ჯავახეთი უდიდესი
+                        ისტორიულ-კულტურული მნიშვნელობის მხარეა და ბევრი ქრისტიანული თუ წინარექრისტიანული ძეგლი
+                        შემოგვინახა. ის ასევე მდიდარია მრავალფეროვანი ბუნების ძეგლებით, წიაღისეულითა და კურორტებით.</p>
+
+                    <a href="#"><button>დეტალურად</button></a>
+                </div>
+            </div>
+            <div class="food-info">
+                <h2>სამცხე ჯავახეთის პოპულარული კერძები</h2>
+                <div class="food-list">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/makarlama.jfif" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>მაკარლამა</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/qada.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>მესხური ქადა</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/apoxtis-xinkali.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>აფოხტის ხინკალი</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/luxumi.jpg" alt="card of food">
+                        </div>
+                        <div class="card-info">
+                            <div class="food-name">
+                                <h1>ლუხუმი</h1>
+                            </div>
+                            <div class="food-detail-link">
+                                <button class="btn" type="submit">დეტალურად</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <p>© ლორემ შემინარჩუნებდა აზარტის ორჭოფობაში ძონძებში ჩაცუცქული, ზვიადისტები სახეს ბედნიერებისთვის მდაბიო
+            მალავენ
+            როკოს. აგეგდო მებრძოლს ოპერატორს რეგ ჩაეკიდა ჩაითრია გასჭყლიტა ზვიადისტები, ხმაურობ მიაგნებდა გამოტყდა.
+            დაკრული ქუჩა მომკიდეთ ტესტოსტერონის, დაეღუპა აზარტის კეთილია იალბუზებს, დაანებებინა ასეთ. ჩამოეკიდნა
+            მოიფხეკდა შედის გამომვლელთან იალბუზებს გადაავლე სვამდა გულხელ ჩაცუცქული რვეულში. მომკიდეთ წაუხდება გიშვებდე
+            ჩაცუცქული სიგანეზე გავარდებოდა ლანძღვას გულხელ ენდრიუა პროფტექნიკურში მშვიდმა.</p>
+    </footer>
+
+
+    <script src="js/regions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

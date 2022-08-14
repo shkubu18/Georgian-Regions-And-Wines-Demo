@@ -1,0 +1,103 @@
+body {
+  background-image: url("../assets/img/wines-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  background:rgba(128, 0, 128, 0.63);
+}
+
+footer {
+  margin-top: 150px;
+  background-color: rgba(128, 0, 128, 0.63);
+}
+
+/******** Wine List Style ********/
+
+.wine-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: rgba(24, 23, 22, 0.818);
+  width: 300px;
+  height: 370px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px rgb(56, 14, 133);
+  margin-inline: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+
+.card.hovered {
+    animation: changecolor 4s;
+    background-color: rgba(128, 0, 128, 0.700);;
+    cursor: pointer;
+  } 
+ 
+  .card.unhovered {
+    animation: initialcolor 4s;
+    background-color: rgba(24, 23, 22, 0.700);;
+  }
+ 
+  @keyframes changecolor {
+    0% {background-color: rgba(24, 23, 22, 0.700);}
+    50% {background-color: rgba(128, 0, 128, 0.700);;}
+  }
+ 
+  @keyframes initialcolor {
+    0% {background-color: rgba(128, 0, 128, 0.700);}
+    50% {background-color: rgba(24, 23, 22, 0.700);;}
+  }
+
+ .card-body img {
+    width: 100%;
+    border-radius: 10px;
+    height: 260px;
+    object-fit: contain;
+ }
+
+ .card-info h1 {
+    color: white;
+    margin-top: 0px;
+    padding-left: 5px;
+    font-weight: 200;
+    font-size: 20px;
+ }
+
+
+.wine-detail-link {
+    display: flex;
+    justify-content: center;
+ }
+
+ .wine-detail-link button {
+   color: white;
+   font-weight: 200;
+   background: linear-gradient(45deg, rgb(56, 14, 133), rgb(143, 6, 177));
+   font-size: 18px;
+   padding: 5px 10px;
+   margin-bottom: 10px;
+   margin-top: 15px;
+   border-radius: 5px;  
+   box-shadow: 2px 2px 5px 2px rgba(15, 15, 15, 0.884);
+   cursor: pointer;
+   font-family: 'Noto Sans Georgian', sans-serif;
+ }
+
+ .wine-detail-link button:hover {
+    box-shadow: 2px 2px 10px 2px white;
+ }
+
+ /******** And Off Wine List Style ********/
+

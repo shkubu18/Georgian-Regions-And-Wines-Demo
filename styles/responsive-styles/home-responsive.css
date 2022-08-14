@@ -1,0 +1,242 @@
+@media screen and (max-width: 1300px ) {
+    .welcome-info h1 {
+        font-size: 50px;
+    }
+
+    .welcome-info p {
+        font-size: 25px;
+    }
+
+    .choice-section {
+        width: 800px;
+    }
+
+    .choice-info h2 {
+        font-size: 20px;
+    }
+
+    .hint .hint-arrows img {
+        height: 100px;
+    }
+
+    .choice-buttons .regions-button {
+        margin: 0;
+    }
+
+    .choice-buttons .wines-button {
+        margin: 0;
+        margin-left: 70px;
+    }
+
+    .slideshow-container.home {
+        width: 800px;
+        height: 550px;
+    }
+
+    .mySlides {
+        height: 100%;
+    }
+
+    .mySlides img {
+        height: 100%;
+    }  
+}
+
+@media screen and (max-width: 920px ) {
+    .choice-section {
+        width: 500px;
+        border-radius: 20px;
+    }
+
+    .welcome-info p {
+        font-size: 20px;
+    }
+
+    .choice-buttons{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .choice-buttons .regions-button {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .choice-buttons .wines-button {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .slideshow-container.home {
+        width: 500px;
+        height: 350px;
+    }
+
+    .prev:hover, .next:hover {
+        background-color: initial;
+    }
+
+    footer {
+        overflow-y: scroll;
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 600px ) {
+
+    .mobile-menu {
+        display: flex;
+        margin-right: 10px;
+    }
+
+    .mobile-menu span {
+        font-weight: 200 ;
+        font-size: 25px;
+    }
+    
+    header {
+        justify-content: space-between;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    header {
+        position: relative;
+    }
+    
+    header nav.active {
+        display: flex;
+        position: absolute;
+        background: linear-gradient(45deg, black, rgb(63, 63, 62));
+        width: 100%;
+        top: 0;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    
+    header nav.active a {
+        display: block;
+        text-align: center;
+        padding: 45px;
+        border-bottom: 1px solid white;
+        margin: 0;
+        font-size: 28px;
+        color: white;
+    }
+
+    .welcome-section{
+        margin: 0;
+        padding-inline: 20px;
+    }
+
+    .welcome-info h1 {
+        font-size: 30px;
+    }
+
+    .choice-section {
+        width: 330px;
+        border-radius: 20px;
+    }
+
+    .choice-info {
+        padding-inline: 0;
+        border-radius: 0;
+    }
+
+    .hint .hint-arrows img {
+        height: 70px;
+    }
+
+    .choice-info h2 {
+        border-radius: 0;
+    }
+
+    .choice-buttons {
+        margin-inline: 15px;
+    }
+
+    .choice-buttons .regions-button {
+        padding-inline: 30px;
+    }
+
+    .choice-buttons .wines-button {
+        padding-inline: 10px;
+        margin: 0;
+    }
+
+    .slideshow-container.home {
+        width: 320px;
+        height: 280px;
+    }
+
+}
+
+@media screen and (max-width: 480px ) {
+    header nav.active a {
+        padding: 55px;
+    }
+}
+
+@media screen and (max-width: 350px ) {
+    header nav.active a {
+        padding: 45px;
+    }
+    
+    .welcome-info h1 {
+        font-size: 20px;
+    }
+
+    .welcome-info p {
+        font-size: 17px;
+    }
+
+    .choice-section {
+        width: 220px;
+        border-radius: 20px;
+    }
+
+    .choice-section h2 {
+        padding-inline: 10px;
+        font-size: 15px;
+    }
+
+    .choice-section p {
+        font-size: 15px;
+        padding-inline: 10px;
+    }
+
+    .hint .hint-arrows img {
+        height: 55px;
+    }
+
+    .choice-buttons .regions-button {
+        padding-inline: 5px;
+        padding-block: 15px;
+        font-size: 13px;
+        width: 80px;
+        height: 65px;
+    }
+
+    .choice-buttons .wines-button {
+        padding: 0;
+        padding-block: 15px;
+        padding-inline: 5px;
+        font-size: 13px;
+        width: 80px;
+        height: 65px;
+    }
+
+
+    .slideshow-container.home {
+        width: 220px;
+        height: 200px;
+        border: 5px solid white;
+    }
+}
+
+
